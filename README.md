@@ -30,25 +30,6 @@ Créer la barre de navigation (Navbar)
 
 Ajoutez ce code dans <body> :
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container">
-    <a class="navbar-brand" href="#">MySite</a>
-
-    <button class="navbar-toggler" type="button"
-      data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Événements</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Produits</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
 # Explication
 
@@ -168,7 +149,7 @@ card → composant Bootstrap prêt à l’emploi.
     <div class="col-md-4">
       <div class="card">
         <img src="https://picsum.photos/300/180?product1" class="card-img-top">
-        <div class="card-body">
+          <div class="card-body">
           <h5 class="card-title">Produit 1</h5>
           <p class="text-success fw-bold">250 DH</p>
           <a href="#" class="btn btn-success">Acheter</a>
@@ -179,7 +160,7 @@ card → composant Bootstrap prêt à l’emploi.
     <div class="col-md-4">
       <div class="card">
         <img src="https://picsum.photos/300/180?product2" class="card-img-top">
-        <div class="card-body">
+          <div class="card-body">
           <h5 class="card-title">Produit 2</h5>
           <p class="text-success fw-bold">350 DH</p>
           <a href="#" class="btn btn-success">Acheter</a>
